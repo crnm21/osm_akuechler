@@ -60,7 +60,7 @@
 			<cutdirsmapper dirs="5" />
 		</unjar>
 		<copy todir="${build-folder}/leaflet">
-			<fileset dir="${dist-folder}/leaflet/dist">
+			<fileset dir="${build-folder}/leaflet/dist">
 				<include name="**" />
 			</fileset>
 		</copy>
